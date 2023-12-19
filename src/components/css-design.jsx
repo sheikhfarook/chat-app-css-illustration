@@ -4,10 +4,11 @@ const CssDesign = () => {
       <div className="flex  w-full">
         <div
           className="w-[31rem] h-[50rem] fixed -left-[5rem]
-         bg-black rounded-b-full "></div>
+     rounded-b-full bg-gradient-to-r from-[#8739FF] to-[#E844FF]"></div>
         <div
           className="w-[31rem] h-[50rem] fixed -right-36
-         bg-black rounded-t-full mt-[165px] "></div>
+          bg-gradient-to-r from-[#E844FF] to-[#8739FF]
+           opacity-[0.03] rounded-t-full mt-[165px] "></div>
       </div>
     </div>
   );
